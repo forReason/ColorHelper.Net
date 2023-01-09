@@ -5,10 +5,32 @@
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
     <Platforms>AnyCPU;x64</Platforms>
+    <Title>ColorHelper.Net</Title>
+    <Authors>Julian Bechtold, KryptoMine.ch</Authors>
+    <Description>a small library to help converting, mixing and generating colors</Description>
+    <Copyright>Julian Bechtold</Copyright>
+    <PackageProjectUrl>https://github.com/forReason/ColorHelper.Net</PackageProjectUrl>
+    <PackageIcon>logo.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/forReason/ColorHelper.Net</RepositoryUrl>
+    <PackageTags>color;mixing;shifting;</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT-Modern-Variant</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="QuickStatistics.Net" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="logo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
